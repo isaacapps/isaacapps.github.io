@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Can We Walk? Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { max-width: 44rem; margin: 0 auto; padding: 24px 16px; font: 16px/1.75 system-ui, sans-serif; }
+  h1 { font-size: 1.5rem; line-height: 1.4; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; }
+  li { margin: .3rem 0; }
+  table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+  th, td { border: 1px solid #bbb; padding: 6px 8px; text-align: left; vertical-align: top; }
+  .meta { color: #666; }
+  a { color: #2F5D8A; word-break: break-all; }
+  @media (prefers-color-scheme: dark) { .meta { color: #aaa; } a { color: #8ab4e0; } th, td { border-color: #555; } }
+</style>
+</head>
+<body>
+<!-- DRAFT: app name, sign-in providers, privacy contact and effective date are placeholders in [brackets]. -->
+<h1>Can We Walk? Privacy Policy</h1>
+<p class="meta">Effective: [YYYY-MM-DD] · Developer: Isaac Apps (Republic of Korea)</p>
+<p class="meta"><a href="../privacy.html">한국어</a></p>
+
+<h2>1. About this app</h2>
+<p>Can We Walk? (the "App") tells dog owners whether the weather is good for a walk. You can use every feature without signing in. Signing in is optional and only backs up your records. The App is for adults (18 and older) who look after dogs.</p>
+
+<h2>2. What the App processes</h2>
+<p>Your dog's name, birthday, breed, look and health settings, photos, walk records (stamps, notes, diary lines), outfits, reminder times and the neighbourhood you pick are stored on your device. When you add a photo from your gallery or camera, the App copies it into the App and removes the location data embedded in the photo.</p>
+<p>These features send information off your device:</p>
+<table>
+<tr><th>Feature</th><th>What is sent</th><th>To whom</th></tr>
+<tr><td>Weather lookup</td><td>A coarse grid cell code (about 5 km) worked out on your device from your approximate location or the neighbourhood you picked, plus your device's IP address as part of the request. We do not send your coordinates, name, device ID or advertising ID, and we do not keep logs of the requests. For cities outside Korea, the App instead sends the coordinates of the city you picked from its own city list, rounded to about 11 m; these are the city's centre, not your device's location.</td><td>Our weather relay on Cloudflare, Inc. (USA), which fetches forecasts (for cities outside Korea from MET Norway, the Norwegian Meteorological Institute; for Korean neighbourhoods from Korean public weather and air-quality data) and returns them to the App.</td></tr>
+<tr><td>Finding your area (optional)</td><td>Approximate (coarse) location, only when you tap "Find my area" or "Find my location again". It is turned into a grid cell on your device and the coordinates are then discarded. The App never uses precise or background location and works without it (you can pick a neighbourhood instead). If you choose a city outside Korea, the App picks the nearest city from its own city list on your device; your coordinates are not sent.</td><td>Stays on the device.</td></tr>
+<tr><td>Ads</td><td>Ad requests, your device's advertising ID, IP address (which can reveal approximate location), and how you interact with ads.</td><td>Google AdMob (Google LLC, USA).</td></tr>
+<tr><td>App health and settings</td><td>A random install identifier (a random value, separate from your name and email), app version, device model and OS version, IP address. Used to deliver remote settings and keep the App working.</td><td>Google Firebase (Google LLC, USA).</td></tr>
+<tr><td>Sign-in and backup (optional)</td><td>If you sign in with Google, your records (dog profile, walk stamps, outfits and similar, but not photos, location or reminder times) are saved so you can move to a new phone. Your sign-in ID and email address are stored with them. If you picked a neighbourhood in Korea, you can also sign in with Kakao or Naver; our sign-in service on Cloudflare checks your sign-in token with Google, Kakao or Naver before Firebase signs you in.</td><td>Google Firebase (Google LLC).</td></tr>
+<tr><td>Reminders</td><td>Nothing. Reminders are scheduled on your device.</td><td>None</td></tr>
+</table>
+<p>We do not sell your personal information for money. We do not use your information to make decisions that have legal or similarly significant effects on you.</p>
+
+<h2>3. Advertising and your choices</h2>
+<ul>
+  <li>The App shows ads served by Google AdMob. Where the law requires it (for example in the UK, EEA and Switzerland) the App asks for your consent before requesting ads, and you can change your choice later in Settings &gt; Privacy choices.</li>
+  <li>You can reset or delete your advertising ID at any time: Android Settings &gt; Privacy &gt; Ads (or Google &gt; Ads) &gt; Delete advertising ID. After that, ads are not personalised with that ID.</li>
+  <li>Some US state laws treat sharing an advertising ID for personalised advertising as "sharing" or "targeted advertising". You can opt out in the App's Privacy choices screen or by deleting your advertising ID as above.</li>
+  <li>We do not respond to "Do Not Track" browser signals because the App has no web tracking. We do not track you across other apps or websites ourselves; Google may do so through AdMob under Google's own policy: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</li>
+</ul>
+
+<h2>4. How long we keep it</h2>
+<p>Information on your device stays until you clear it or uninstall the App. Weather requests are not logged. Backup records are kept while your account exists; if you do not sign in for two years, we delete the account. Advertising and Firebase data are kept by Google under its own retention periods.</p>
+
+<h2>5. Your rights and how to use them</h2>
+<ul>
+  <li><strong>Delete everything on your device:</strong> use the delete-data option in the App's Settings, or Android Settings &gt; Apps &gt; Can We Walk? &gt; Storage &gt; Clear storage, or uninstall the App.</li>
+  <li><strong>Delete your account and backup:</strong> Settings &gt; the sign-in row &gt; Delete account. Or visit <a href="https://isaacapps.github.io/delete.html">isaacapps.github.io/delete.html</a>, or email us from the address you signed in with. We reply within 7 days (see section 9 for statutory time limits).</li>
+  <li><strong>Access, correct, or get a copy of your information:</strong> your records are shown in the App; email us for a copy of anything else we hold.</li>
+  <li><strong>Permissions:</strong> you can turn location, camera and notifications off in Android settings. The related feature stops and the rest keeps working.</li>
+  <li>We will not treat you differently for using these rights.</li>
+</ul>
+
+<h2>6. Security</h2>
+<p>Data leaves the device over encrypted connections (HTTPS). Sign-in and backup send only the fields that are needed. Backup files you export are stored on your device without encryption; please keep them safe.</p>
+
+<h2>7. Children</h2>
+<p>The App is for adults aged 18 and over. We do not knowingly collect personal information from children. If you believe a child has given us information, email us and we will delete it.</p>
+
+<h2>8. Where information is processed</h2>
+<p>We are in the Republic of Korea. Cloudflare, Google and (for forecasts) MET Norway process data in other countries, including the United States. We rely on these providers' own safeguards for transfers.</p>
+
+<h2>9. Notes for your country</h2>
+<ul>
+  <li><strong>United States (including California).</strong> Categories we handle: identifiers (advertising ID, install ID, email if you sign in), internet activity (ad interaction), approximate location (grid cell). Photos stay on your device. We share advertising identifiers with Google for advertising (see section 3). We do not sell personal information for money and do not knowingly handle information of anyone under 18. You may ask what we hold, ask us to delete or correct it, and opt out of sharing; email us and we answer within 45 days. A person you authorise may make the request for you. We do not discriminate against you for exercising these rights.</li>
+  <li><strong>Australia.</strong> We handle personal information in line with the Australian Privacy Principles. If you think we breached them, email us and we will respond within 30 days; you may then complain to the Office of the Australian Information Commissioner (oaic.gov.au). We disclose information to overseas recipients in the United States (Cloudflare, Google), Norway (MET Norway receives only the city coordinates and the relay's IP address) and Korea (us).</li>
+  <li><strong>New Zealand.</strong> We handle personal information in line with the Privacy Act 2020. You may ask to see or correct your information (email us; we respond within 20 working days) and may complain to the Office of the Privacy Commissioner (privacy.org.nz). We disclose information to the overseas providers named above.</li>
+  <li><strong>Chile.</strong> You can reach our Privacy Contact at isaacapps.kr@gmail.com at any time; we answer within 30 days.</li>
+  <li><strong>Singapore.</strong> Our Privacy Contact also acts as our data protection contact under the Personal Data Protection Act 2012.</li>
+  <li><strong>Bermuda.</strong> Our Privacy Contact is our privacy officer under the Personal Information Protection Act 2016.</li>
+  <li><strong>Switzerland.</strong> We handle personal information in line with the Swiss Federal Act on Data Protection. Ad consent is requested as in section 3.</li>
+  <li><strong>India.</strong> You may ask to access, correct or erase your information, and to withdraw consent; email our Privacy Contact. We answer within 30 days.</li>
+  <li><strong>Other countries.</strong> Where a local privacy law applies, we follow it. Location: we use only your approximate location, only when you tap "Find my area" or "Find my location again", and keep only a coarse grid cell (about 5 km); you can turn location off in Android settings. You may ask us to access, correct or delete your information at the address in section 10.</li>
+</ul>
+
+<h2>10. Privacy contact</h2>
+<p>Privacy Contact, Isaac Apps<br>Email: <a href="mailto:isaacapps.kr@gmail.com">isaacapps.kr@gmail.com</a></p>
+
+<h2>11. Changes</h2>
+<p>If we change this policy in an important way we tell you in the App at least 7 days before it takes effect. Previous versions: none.</p>
+</body>
+</html>
